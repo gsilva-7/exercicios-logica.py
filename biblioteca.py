@@ -14,6 +14,9 @@ livros = [
 
 while True:
 
+    disponiveis = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    emprestados = []
+
     print("1 - Livros disponíveis.")
     print("2 - Emprestar livro.")
     print("3 - Devolver livro.")
@@ -27,10 +30,23 @@ while True:
         break
 
     if opcao == 1:
+            print("LIVROS DISPONÍVEIS")
             for livro in livros:
-                print("LIVROS DISPONÍVEIS")
                 print(livro)
-                print("-----------------")
+            
+            print("-----------------")
+            continue
 
     if opcao == 2:
             emprestar = int(input("Digite o código do livro que deseja emprestar: "))
+            print(f"Livro {emprestar} emprestado.")
+
+            disponiveis 
+            continue
+    
+    if opcao == 3:
+          devolver = int(input("Digite o código do livro que deseja devolver: "))
+          print(f"Livro {devolver} devolvido.")
+          continue
+
+    
